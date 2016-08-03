@@ -5,66 +5,81 @@ body {
 	font-size: 18px;
 	background-color: #777;
 	text-align: center;
+	color: #777;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
+
 .wrapper {
 	margin-left: 100px;
 	margin-right: 100px;
-	overflow: auto;
-	
-	
 }
+p {
+	display: inline-block;
+}
+
 header {
+	position: relative;
 	height: 80px;
 	margin-bottom: 5px;
 	background-color: #ebebeb;
-
-
-
 }
-header p {
-	display: inline-block;
-}
+
 nav {
+	position: relative;
 	height: 80px;
-
 	margin-bottom: 5px;
 	background-color: #ebebeb;
-
 }
-nav p {
-	display: inline-block;
-}
-section {
-	height:160px;
-	width: 50%;
-	margin-bottom: 5px;
 
+section#main {
+	height: 260px;
+	width: 56%;
+	margin-top: 19px;
+	margin-bottom: 19px;
+	margin-right: 4%;
 	background-color: #ebebeb;
 	float: left;
-
 }
+p {
+	display: inline-block;
+}
+
 article {
+	background: #777;
+	height: 165px;
+	margin: 15px;
+}	
 
+#header {
+	color: #ebebeb;
+	height: 55px;
+	margin: 0;
+	background-color: #777;
 }
-aside {
-	height:160px;
-	width: 50%;
+.article-section {
+
+	height: 50px;
 	margin-bottom: 5px;
+	margin-left: 2%;
+	margin-right: 2%;
+	background-color: #ebebeb;
+}
+
+aside {
+	height: 260px;
+	width: 40%;
+	margin-top: 19px;
+	margin-bottom: 19px;
 	
 	background-color: #ebebeb;
 	float: left;
-
-
-
 }
-
 footer {
+
 	height: 80px;
-
-
 	background-color: #ebebeb;
 }
+
 .clear {
-	clear: both;
+	clear: left;
 }
