@@ -1,5 +1,6 @@
+/* reset.css is included */
 body {
-	magin: 0;
+	margin: 10px;
 	padding: 0;
 	width: 960px;
 	font-size: 18px;
@@ -13,19 +14,24 @@ body {
 	margin-left: 100px;
 	margin-right: 100px;
 }
+
+/* adjust letters to the center of the height in the boxes */
+h1 {
+	padding-top: 31px;
+}
+
+h2 {
+	padding-top: 20px;
+}
+
+h3 {
+	padding-top: 15px;
+}
 p {
-	display: inline-block;
+	padding-top: 12px;
 }
 
-header {
-	position: relative;
-	height: 80px;
-	margin-bottom: 5px;
-	background-color: #ebebeb;
-}
-
-nav {
-	position: relative;
+header, nav, footer {
 	height: 80px;
 	margin-bottom: 5px;
 	background-color: #ebebeb;
@@ -40,46 +46,37 @@ section#main {
 	background-color: #ebebeb;
 	float: left;
 }
-p {
-	display: inline-block;
-}
 
-article {
-	background: #777;
-	height: 165px;
-	margin: 15px;
-}	
+	article {
+		background-color: #777;
+		height: 175px;
+		margin:15px;
+		margin-top:30px;
+	}	
 
-#header {
-	color: #ebebeb;
-	height: 55px;
-	margin: 0;
-	background-color: #777;
-}
-.article-section {
-
-	height: 50px;
-	margin-bottom: 5px;
-	margin-left: 2%;
-	margin-right: 2%;
-	background-color: #ebebeb;
-}
+		#header {
+			color: #ebebeb;
+			height: 55px;
+			margin: 0;
+			background-color: #777;
+		}
+		.article-section {
+			height: 50px;
+			margin-bottom: 8px;
+			margin-left: 2%;
+			margin-right: 2%;
+			background-color: #ebebeb;
+		}
 
 aside {
 	height: 260px;
 	width: 40%;
 	margin-top: 19px;
-	margin-bottom: 19px;
-	
+	margin-bottom: 19px;	
 	background-color: #ebebeb;
 	float: left;
 }
-footer {
-
-	height: 80px;
-	background-color: #ebebeb;
-}
-
+/* for footer */
 .clear {
 	clear: left;
 }
